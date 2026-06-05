@@ -1,0 +1,156 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 100vh;
+
+    background-image: url("../img/back_img.png");
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* OSCURECER FONDO */
+
+.overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.65);
+}
+
+/* CONTENIDO */
+
+.content {
+    position: relative;
+    z-index: 2;
+
+    padding: 2rem;
+}
+
+/* LOGO */
+
+.logo {
+    max-width: 250px;
+    margin-bottom: 1rem;
+}
+
+/* TITULO */
+
+h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+/* TEXTOS */
+
+.lead {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.7;
+}
+
+/* EMAIL */
+
+.email {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    text-decoration: none;
+    border-bottom: 2px solid #c62828;
+
+    transition: .3s;
+}
+
+.email:hover {
+    color: #c62828;
+}
+
+/* INSTAGRAM */
+
+.instagram-link {
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+
+    padding: .7rem 1.5rem;
+    border-radius: 50px;
+
+    transition: .3s;
+}
+
+.instagram-link:hover {
+    background: #c62828;
+    border-color: #c62828;
+    color: white;
+}
+
+/* SLOGAN */
+
+.slogan {
+    opacity: .9;
+    font-style: italic;
+}
+
+/* PROXIMAMENTE */
+
+.coming-soon {
+    display: inline-block;
+
+    margin-top: 1rem;
+
+    padding: .5rem 1rem;
+
+    border: 1px solid #c62828;
+
+    color: #c62828;
+
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    .logo {
+        max-width: 160px;
+    }
+
+}
