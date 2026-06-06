@@ -58,7 +58,7 @@ body {
 
 h1 {
     font-size: 3.2rem;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 1rem;
     text-transform: uppercase;
 }
@@ -72,8 +72,7 @@ h1 {
 
 p {
     font-size: 1.5rem;
-    margin-bottom: 1.2rem;
-    line-height: 1.7;
+    line-height: 1.5;
 }
 
 /* EMAIL */
